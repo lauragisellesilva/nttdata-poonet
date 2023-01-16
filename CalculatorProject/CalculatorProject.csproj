@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CalculatorProject.PensionPlan.Program</StartupObject>
+    <StartupObject>CalculatorProject.Polymorphism.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,8 @@
     <Compile Include="PensionPlan\Person.cs" />
     <Compile Include="PensionPlan\Print.cs" />
     <Compile Include="PensionPlan\Program.cs" />
+    <Compile Include="Polymorphism\Program.cs" />
+    <Compile Include="Polymorphism\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
