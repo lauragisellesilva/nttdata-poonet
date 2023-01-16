@@ -19,7 +19,7 @@ namespace CalculatorProject.Interface
         }
         public object Clone()
         {
-            return this.Clone();
+            return new Coche();
         }
     }
 }

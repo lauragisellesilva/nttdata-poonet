@@ -24,8 +24,8 @@ namespace CalculatorProject.Interface
             coche.Arracar();
             coche.Parar();
 
-            //ICloneable clonable = new Coche();
-            //clonable.Clone();
+            ICloneable clonable = new Coche();
+            clonable.Clone();
 
             //polimorfismo de clases
             Vehiculo vehiculo= new Camion();
