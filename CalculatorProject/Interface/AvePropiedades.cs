@@ -18,12 +18,12 @@ namespace CalculatorProject.Interface
         }
         public void Comer()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ave comiendo");
         }
 
         public void Volar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ave volando");
         }
     }
 }

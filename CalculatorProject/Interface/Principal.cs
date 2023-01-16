@@ -27,7 +27,13 @@ namespace CalculatorProject.Interface
             //ICloneable clonable = new Coche();
             //clonable.Clone();
 
-            //Console.ReadKey();
+            //polimorfismo de clases
+            Vehiculo vehiculo= new Camion();
+            vehiculo.Arrancar();
+            vehiculo.Parar();
+            vehiculo.Test();
+
+            Console.ReadKey();
         }
         /// Imprimir the specified ave.
         /// Este metodo imprimira las propiedades de una clase ave.
