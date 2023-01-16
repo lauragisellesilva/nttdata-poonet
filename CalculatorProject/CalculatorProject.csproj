@@ -55,8 +55,12 @@
     <Compile Include="PensionPlan\Person.cs" />
     <Compile Include="PensionPlan\Print.cs" />
     <Compile Include="PensionPlan\Program.cs" />
+    <Compile Include="Polymorphism\Circle.cs" />
     <Compile Include="Polymorphism\Program.cs" />
+    <Compile Include="Polymorphism\Rectangle.cs" />
+    <Compile Include="Polymorphism\Shape.cs" />
     <Compile Include="Polymorphism\Student.cs" />
+    <Compile Include="Polymorphism\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
