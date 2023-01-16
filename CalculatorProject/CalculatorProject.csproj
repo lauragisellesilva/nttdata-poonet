@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CalculatorProject.Polymorphism.Program</StartupObject>
+    <StartupObject>CalculatorProject.Interface.Principal</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="Interface\Ave.cs" />
+    <Compile Include="Interface\AvePropiedades.cs" />
+    <Compile Include="Interface\Coche.cs" />
+    <Compile Include="Interface\IAve.cs" />
+    <Compile Include="Interface\IVehiculo.cs" />
+    <Compile Include="Interface\Moto.cs" />
+    <Compile Include="Interface\Principal.cs" />
     <Compile Include="Loops\PrintProduct.cs" />
     <Compile Include="Loops\Product.cs" />
     <Compile Include="PensionPlan\CalculatePensionPlanAndorra.cs" />
